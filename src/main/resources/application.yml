@@ -1,5 +1,8 @@
+# server:
+#   port: 9001
+
 server:
-  port: 9001
+  port: 8041
 
 spring:
   application:
@@ -8,3 +11,4 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    

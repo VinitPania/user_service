@@ -17,7 +17,7 @@ public class UserServiceApplication extends SpringBootServletInitializer {
     
     @Override
       protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-              return application.sources(UserServiceApplication.class); 
+            return application.sources(UserServiceApplication.class); 
       }
 
 
