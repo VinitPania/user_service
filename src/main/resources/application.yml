@@ -1,8 +1,8 @@
-# server:
-#   port: 9001
-
 server:
-  port: 8041
+  port: 9002
+
+# server:
+#   port: 8041
 
 spring:
   application:
