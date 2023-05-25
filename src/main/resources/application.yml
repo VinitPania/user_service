@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9001
 
 # server:
 #   port: 8041
@@ -10,5 +10,9 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    register-with-eureka: true
+    fetch-registry: true
+    hostname: e_server
+    serviceUrl:
+      defaultZone: http://e_server:8761/eureka  
     
