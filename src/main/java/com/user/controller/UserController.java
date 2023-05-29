@@ -28,10 +28,10 @@ public class UserController {
         User user = this.userService.getUser(userId);
         //http://localhost:9002/contact/user/1311
 
-        List contacts = this.restTemplate.getForObject("http://contact-service/contact/user/" + user.getUserId(), List.class);
+        //List contacts = this.restTemplate.getForObject("http://contact-service/contact/user/" + user.getUserId(), List.class);
 
-
-        user.setContacts(contacts);
+                                                                    
+        //user.setContacts(contacts);
         return user;
 
     }
