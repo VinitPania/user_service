@@ -10,7 +10,8 @@ spring:
 
 eureka:
   instance:
-  hostname: user-service
+   hostname: user-service
+   useIpAddress: true
 
   client:
     serviceUrl:
