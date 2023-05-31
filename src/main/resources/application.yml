@@ -15,7 +15,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
   instance:
-    hostname: localhost
+    hostname: eureka-server
     statusPageUrl: https://${eureka.hostname}/info
     healthCheckUrl: https://${eureka.hostname}/health
     homePageUrl: https://${eureka.hostname}/
